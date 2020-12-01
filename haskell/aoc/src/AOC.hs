@@ -1,4 +1,3 @@
-module AOC () where
+module AOC where
 
-hello :: String
-hello = "hello"
+import qualified AOC.Day01 as Day1
