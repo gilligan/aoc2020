@@ -1,4 +1,4 @@
-# Revision history for day01
+# Revision history for path-hs
 
 ## 0.1.0.0 -- YYYY-mm-dd
 
