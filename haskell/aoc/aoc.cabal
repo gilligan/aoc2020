@@ -23,6 +23,7 @@ library
   exposed-modules:     AOC
                        AOC.Utils
                        AOC.Day01
+                       AOC.Day02
   build-depends:       base >=4.14 && <4.15
                      , text
   hs-source-dirs:      ./src
@@ -42,3 +43,4 @@ test-suite tests
   build-depends:       base >=4.14 && <4.15
                      , hspec
                      , aoc
+                     , text
