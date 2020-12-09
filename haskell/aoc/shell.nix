@@ -18,5 +18,5 @@ in
 hsPkgs.shellFor {
   withHoogle = true;
   packages = ps: with ps; [ aoc ];
-  nativeBuildInputs = with pkgs; [ cabal-install entr ghcid haskell-language-server watch-tests ormolu nixpkgs-fmt ];
+  nativeBuildInputs = with pkgs; [ cabal-install entr ghcid haskell-language-server watch-tests ormolu nixpkgs-fmt hlint ];
 }

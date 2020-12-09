@@ -3,12 +3,7 @@
 module AOC.Day2Spec (spec) where
 
 import AOC.Day02
-import Data.Text
 import Test.Hspec
-
-puzzleInput :: [Int]
-puzzleInput =
-  []
 
 spec :: Spec
 spec = do

@@ -17,6 +17,7 @@ common common-options
                        -Wincomplete-uni-patterns
                        -Wredundant-constraints
                        -Wno-name-shadowing
+                       -Wno-type-defaults
 
 library
   import:              common-options
@@ -25,8 +26,12 @@ library
                        AOC.Day01
                        AOC.Day02
                        AOC.Day03
+                       AOC.Day04
+                       AOC.Day05
   build-depends:       base >=4.14 && <4.15
                      , text
+                     , split
+                     , megaparsec
   hs-source-dirs:      ./src
 
 executable aoc
@@ -42,6 +47,8 @@ test-suite tests
   other-modules:       AOC.Day1Spec
                        AOC.Day2Spec
                        AOC.Day3Spec
+                       AOC.Day4Spec
+                       AOC.Day5Spec
   build-tool-depends:  hspec-discover:hspec-discover
   build-depends:       base >=4.14 && <4.15
                      , aoc -any
