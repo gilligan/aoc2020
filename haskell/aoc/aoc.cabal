@@ -29,6 +29,7 @@ library
                        AOC.Day04
                        AOC.Day05
                        AOC.Day06
+                       AOC.Day07
   build-depends:       base >=4.14 && <4.15
                      , text
                      , split
